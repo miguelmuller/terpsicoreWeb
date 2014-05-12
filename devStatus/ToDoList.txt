@@ -4,10 +4,12 @@ To Do Terpsicore Web Site:
     3-creaste un index.html en ese directorio  (un ejemplo que diga cualquier cosa en html valido)
     4-creaste una carpeta status con este toDo y el estado actual del proyecto
     5-creaste (y documentaste como hacerlo) un virtualHost terpsicoreweb en apache2 para acceder y probar localmente
-    6-agregaste Bootstrap y algun jQuery plugin para hacer one page sites (http://www.thepetedesign.com/demos/onepage_scroll_demo.html o fullPage.js)
+    6-agregaste Bootstrap y font-awsome y jQuery
     7-creaste una carpeta con archivos de texto segun contenido y estructura a volcar en cada seccion.
+    7.5- cree secciones 
     8-Decidi multimedia o iconos para cada seccion
     9-Volque contenido 
+    9.5- Agregué algun jQuery plugin para hacer one page sites (http://www.thepetedesign.com/demos/onepage_scroll_demo.html o fullPage.js)
     10-Subi a servidor de ipage
 
 1-Done
@@ -22,6 +24,9 @@ To Do Terpsicore Web Site:
   - Create folders and links according to modifications. (Watch out for permissions!) 
   - Add terpsicore in /etc/hosts (with local loopback ip address). Remember for what I understand, you create an alias for your loopback address named terpsicore. Aparently when you request that address (via your friendly browser) and the alias matches one in /etc/apache2/sites-enabled/ apache2 searches for an index file in the directory you specified for that alias in the virtual host file entry you specified in /etc/apache2/sites-available/
 6- 
+   JQuery:
+    Copio la carpeta de jQuery a el directorio de trabajo en /lib
+   Bootstrap:
     Reading bootstrap homepage
     - Download bootstrap as source code (less code, javascript code, fonts and docs as well as a dist folder) from bootstrap official homepage
       Trying a simple example of bootstrap in my page already including jQuery: (the one in the homepage)
@@ -35,6 +40,24 @@ To Do Terpsicore Web Site:
            in body (at the end) the .js...  
            <!-- Include all compiled plugins (below), or include individual files as needed -->
            <script src="/lib/bootstrap-3.1.1/dist/js/bootstrap.min.js"></script>
+    Font Awsome:
+      -Copio la carpeta de fa a mi directorio de trabajo
+      -Invcluyo el .css asi: 
+  
+
+
+
+
+Lunes 12/5/14
+
+buscando imagenes en:
+openphoto.net
+alternativa: que sea con colores y grafiquitos.
+
+creando carpeta content con archivos para cada seccion y copiando el draft  
+
+Editando el codigo para hacer algo similar a startBootstrap. (aca hay info sobre el tema de las imagenes, entende mas o menos que es lo que hace)
+http://stackoverflow.com/questions/17734428/css-background-using-background-size-cover-doesnt-fit-the-full-height
 
 
 
